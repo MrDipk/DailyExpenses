@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@android:drawable/editbox_background_normal</item>
+        <item name="android:elevation">10dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CardTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginBottom">5dp
+        </item>
+        <item name="elevation">20dp</item>
+    </style>
+
+    <style name="CardProgressBar" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:rotation">180</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="elevation">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+</resources>
